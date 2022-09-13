@@ -1,0 +1,4 @@
+To display the output of command prompt window in the console and also write to a file (from MATLAB):
+
+cmd = ['start powershell "tracert www.google.com | tee tracert.txt"'];
+status = system(cmd)
